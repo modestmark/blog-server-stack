@@ -1,0 +1,10 @@
+[Unit]
+Description=blog gunicorn daemon
+
+[Service]
+Type=simple
+User=nginx
+ExecStart=/var/www/gunicorn/gunicorn_start.sh
+
+[Install]
+WantedBy=multi-user.target

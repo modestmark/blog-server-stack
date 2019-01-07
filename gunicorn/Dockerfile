@@ -1,4 +1,4 @@
-FROM nginx
+FROM debian
 MAINTAINER Mark Gagnon
 
-
+COPY 
